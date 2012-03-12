@@ -1,0 +1,17 @@
+= Taverna[http://www.taverna.org.uk/] Baclava Gem
+
+Authors:: Robert Haines, Stian Soiland-Reyes, David Withers, Emmanuel Tagarira
+Contact:: mailto:support@mygrid.org.uk
+URL::     http://www.taverna.org.uk/
+Licence:: BSD (See Licence or http://www.opensource.org/licenses/bsd-license.php)
+Copyright::   (c) 2006-2012 The University of Manchester, UK
+
+== Synopsis
+
+This is a Ruby library to support the reading and writing of the
+Baclava data format.
+
+== Support
+
+Please email mailto:support@mygrid.org.uk for any questions relating to
+this Ruby gem.
