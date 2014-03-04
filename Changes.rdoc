@@ -1,5 +1,8 @@
 = Changes log for the Taverna Baclava Ruby Gem
 
+== Version 1.0.1
+
+* Relax the builder dependency version requirement.
 
 == About this Changes file
 
