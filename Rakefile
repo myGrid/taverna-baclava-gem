@@ -41,7 +41,7 @@ task :default => [:test]
 
 spec = Gem::Specification.new do |s|
   s.name             = "taverna-baclava"
-  s.version          = "1.0.0"
+  s.version          = "1.0.1"
   s.author           = "Robert Haines"
   s.email            = "rhaines@manchester.ac.uk"
   s.homepage         = "http://www.taverna.org.uk/"
@@ -78,7 +78,7 @@ RDoc::Task.new do |r|
     item.include?("taverna-baclava.rb")
   end
   r.rdoc_files.include("ReadMe.rdoc", "Licence.rdoc", "Changes.rdoc", lib)
-  r.options << "-t Taverna Baclava Ruby Library version 1.0.0"
+  r.options << "-t Taverna Baclava Ruby Library version 1.0.1"
   r.options << "-N"
   r.options << "--tab-width=2"
 end
