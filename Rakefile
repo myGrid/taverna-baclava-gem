@@ -1,4 +1,4 @@
-# Copyright (c) 2006-2012 The University of Manchester, UK.
+# Copyright (c) 2006-2014 The University of Manchester, UK.
 #
 # All rights reserved.
 #
@@ -58,7 +58,7 @@ spec = Gem::Specification.new do |s|
   s.rdoc_options     = ["-N", "--tab-width=2", "--main=ReadMe.rdoc"]
   s.add_development_dependency('rake', '~> 0.9.2')
   s.add_development_dependency('rdoc', '>= 3.9.4')
-  s.add_runtime_dependency('builder', '~> 3.0.0')
+  s.add_runtime_dependency('builder', '~> 3.0')
 end
 
 Gem::PackageTask.new(spec) do |pkg|
